@@ -21,6 +21,7 @@
 - (IBAction)contactUs:(id)sender;
 - (IBAction)calcProfit:(id)sender;
 - (IBAction)clearCalc:(id)sender;
+- (IBAction)call:(id)sender;
 
 @end
 
@@ -32,7 +33,7 @@
     
     self.scrollView.userInteractionEnabled = TRUE;
     
-    self.scrollView.contentSize =CGSizeMake(0, 700);
+    self.scrollView.contentSize =CGSizeMake(0, 800);
     
     self.scrollView.keyboardDismissMode = UIScrollViewKeyboardDismissModeInteractive;
     
@@ -232,6 +233,10 @@
     self.interestRate.text=nil;
     self.secondInterestRate.text=nil;
     
+}
+
+- (IBAction)call:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://7812353200"]];
 }
 
 

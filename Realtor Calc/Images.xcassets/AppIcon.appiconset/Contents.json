@@ -3,20 +3,26 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "calc-icon.png",
+      "filename" : "homeProfit 58.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "calc-icon-2.png",
+      "filename" : "homeProfit 80.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "calc-icon-1.png",
+      "filename" : "homeProfit 120.png",
       "scale" : "2x"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "homeProfit 180.png",
+      "scale" : "3x"
     }
   ],
   "info" : {
