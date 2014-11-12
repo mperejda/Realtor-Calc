@@ -322,7 +322,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lieberman Law Office, P.C. (2HYG982R8E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lieberman Law Office, P.C. (2HYG982R8E)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -360,7 +361,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lieberman Law Office, P.C. (2HYG982R8E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lieberman Law Office, P.C. (2HYG982R8E)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -387,7 +389,7 @@
 				GCC_PREFIX_HEADER = "Realtor Calc/Realtor Calc-Prefix.pch";
 				INFOPLIST_FILE = "Realtor Calc/Realtor Calc-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "781FFBD9-C216-454E-B5D9-726FDA14A900";
+				PROVISIONING_PROFILE = "7a7cc633-4def-4c06-a8cc-f6455d5bd3f8";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,7 +405,7 @@
 				GCC_PREFIX_HEADER = "Realtor Calc/Realtor Calc-Prefix.pch";
 				INFOPLIST_FILE = "Realtor Calc/Realtor Calc-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "781FFBD9-C216-454E-B5D9-726FDA14A900";
+				PROVISIONING_PROFILE = "7a7cc633-4def-4c06-a8cc-f6455d5bd3f8";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
